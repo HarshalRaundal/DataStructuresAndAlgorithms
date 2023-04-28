@@ -1,0 +1,9 @@
+//1d
+for(auto item: dp){
+  cout<<item<<" ";
+}
+// 2d
+for(auto row : dp){
+		    for(auto item : row) cout<<item<<" ";
+		    cout<<"\n";
+	}
